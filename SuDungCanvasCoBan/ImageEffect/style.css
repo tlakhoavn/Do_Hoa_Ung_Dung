@@ -1,0 +1,16 @@
+body {
+    background: black;
+}
+
+#ID_CAVAS_RESULT {
+    position: absolute;
+    top: 25%;
+    left:0;
+}
+
+#ID_ORIGINAL_VIDEO {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    
+}

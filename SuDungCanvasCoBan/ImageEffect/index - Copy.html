@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	      	<title>Convert Video using Gaussian Filter</title>      
+	 </head>
+
+<body>
+	<div>
+		<canvas id="ID_CV_IMAGE_PANDA" width="600" height="200">
+			Sorry! Your browser doesn't support canvas.
+		</canvas>
+	</div>
+	<div>
+		<div>
+			<canvas id="ID_CV_VIDEO_MEOMEO" width="200" height="200"></canvas>		
+			<video id="ID_VIDEO_MEOMEO" controls  width="600" height="300">
+				<source id="mp4" src="meomeo.mp4" type="video/mp4">			
+				</source>
+				Your user agent does not support the HTML5 Video element.
+			</video>	
+		</div>
+
+		<div>
+			<button id="bt_play">play</buton>
+			<button id="bt_pause">pause</button>
+			<button id="bt_big">Big</button>
+			<button id="bt_small">Small</button>
+			<button id="bt_back">Lùi 5 giây</button>
+			<button id="bt_speed_up">Tăng tốc độ</button>
+			<button id="bt_speed_down">Giảm tốc độ</button>
+			<button id="bt_fullscreen">full screen</button>
+			<input id="bt_vol" type="range" min="0" max="100" step="1" value="50">
+			<input type="range" id="bt_timeline" min="0" max="100" step="1" value="0">
+			Current: <span id="currentTime">0</span> / <span id="durationTime">0</span>
+			</div>
+	</div>
+
+	<script src="client.js"></script>	
+</body>
+</html>

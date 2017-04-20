@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 
-app.use(express.static('ImageEffect'))
+app.use(express.static('VideoEffect'))
 
 // This responds with "Hello World" on the homepage
 app.get('/', function (req, res) {

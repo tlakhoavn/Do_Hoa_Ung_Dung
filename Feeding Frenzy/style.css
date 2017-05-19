@@ -7,14 +7,13 @@ html,body{
 
 body {
 
-	cursor: none;
     background: url('images/background.jpg');
    	margin: 0;
    	padding: 0;
 }
 
 #game-canvas {
-	
+
 	position: relative;
 	border: 2px inset rgba(0,0,80,0.62);
 
